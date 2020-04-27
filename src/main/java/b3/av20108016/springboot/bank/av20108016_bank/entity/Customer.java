@@ -31,6 +31,16 @@ public class Customer {
 	private Set<Account> accounts;
 	
 	
+	public Customer() {}
+	
+	public Customer(int customerId, String firstName, String lastName, String email) {
+		super();
+		this.customerId = customerId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
+	
 	public int getCustomerId() {
 		return customerId;
 	}

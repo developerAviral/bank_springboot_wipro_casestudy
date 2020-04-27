@@ -11,6 +11,15 @@ public class FundTransfer {
 	private int toAccountNumber;
 	private double amount;
 	
+	public FundTransfer() {}
+	
+	public FundTransfer(int fromAccountNumber, int toAccountNumber, double amount) {
+		super();
+		this.fromAccountNumber = fromAccountNumber;
+		this.toAccountNumber = toAccountNumber;
+		this.amount = amount;
+	}
+	
 	public int getFromAccountNumber() {
 		return fromAccountNumber;
 	}
